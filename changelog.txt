@@ -1,0 +1,63 @@
+﻿MISSILES ENCOUNTERS
+Journal des ajouts, améliorations et corrections de bugs.
+
+16 JUILLET 2019 - VERSION 1.0.5
+
+    MODIFICATIONS :
+        - Code modifié pour le rendre compatible avec la version LÖVE 11.2.
+        - Format du jeu maintenant en 16/9.
+        - Les missiles sont maintenant des images PNG (plus de contrainte de jam, amélioration
+          des graphismes en cours pour une prochaine version... Un jour... :D ).
+
+
+13 DECEMBRE 2017 - VERSION 1.0.4
+    
+    MODIFICATIONS :        
+        - Ajustement de la difficulté :
+            - Vitesse des avions légèrement réduite dans les bas niveaux.
+            - Un peu moins de missiles en simultané.
+            - Vitesse du rayon des ovnis augmenté dans les bas niveaux.
+        - Quelques améliorations graphiques : dégradé du ciel, polices, répartition des étoiles...
+        
+    CORRECTIONS :
+        - Correction d'un bug de persistance de certains missiles du joueur après un Game Over.
+        - Correction de l'explosion à retardement des missiles touchant une base.        
+
+
+30 NOVEMBRE 2017 - VERSION 1.0.3 : Version définitive pour la Game Jam
+
+    AJOUTS :
+        - Un nouveau type d'ennemi : l'ovni avec son rayon destructeur.
+        
+    MODIFICATIONS :
+        - Ajustements des vagues d'ennemis pour intégrer les ovnis.
+        - Difficulté ajustée de nouveau, on commence à atteindre une bon équilibre.
+                
+
+28 NOVEMBRE 2017 - VERSION 1.0.2
+
+    MODIFICATIONS :
+        - Difficulté ajustée encore plus finement.
+        - Ecran du menu principal légèrement modifié.
+        - Code réécrit avec une plus grande modularité pour faciliter la maintenance et les mises à jour.
+        
+    CORRECTIONS :
+        - Correction d'un bug affectant la vitesse du jeu sur certaines machines.
+        
+
+25 NOVEMBRE 2017 - VERSION 1.0.1
+
+    AJOUTS :
+        - Sauvegarde automatique des meilleurs score et level sur l'ordinateur.
+        
+    MODIFICATIONS :
+        - Difficulté augmentée (surtout sur les premiers niveaux).
+        - Les vitesses des ennemis ne sont plus identiques sur un même niveau.
+        
+    CORRECTIONS :
+        - Correction de quelques bugs mineurs.
+        
+
+24 NOVEMBRE 2017 - VERSION 1.0
+
+    - Première version du jeu pour la Gamecodeur Game Jam #11 (2017).

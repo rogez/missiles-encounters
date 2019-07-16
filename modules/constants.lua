@@ -1,0 +1,14 @@
+GAME_VERSION = "1.0.5"
+COPY_YEARS = "2017-2019"
+
+-- ETATS DU JEU
+START_LOAD      = 1
+START           = 2
+MAIN_MENU_LOAD  = 11
+MAIN_MENU       = 12
+STAGE_LOAD      = 21
+STAGE           = 22
+PAUSE_LOAD      = 51
+PAUSE           = 52
+GAME_OVER_LOAD  = 91
+GAME_OVER       = 92
